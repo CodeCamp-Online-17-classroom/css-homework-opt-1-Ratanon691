@@ -13,3 +13,4 @@
 3. สร้าง friends.html เพื่อแสดงรายชื่อเพื่อนในคลาส
 - ชื่อ-นามสกุล,​ ชื่อเล่น, เบอร์โทร, งานอดิเรก 
 - มี link ไปยัง 2 หน้าที่เหลือ (index.html + profile.html)
+- Rattanon Tunwittaya
