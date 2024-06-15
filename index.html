@@ -1,1 +1,85 @@
-<!-- write code here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            display: flex;
+            list-style-type: none ;
+            justify-content: end;
+            background-color: gray;
+            padding: 5px;
+            width: 100vw;
+        }
+        .navbar a{
+            text-decoration: none;    
+            margin: 10px;     
+            color: white;  
+        }
+        .navbar a:hover{
+            color: black;
+        }
+        .body{
+            width: 100vw;
+            height: 100vh;
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: column;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .pic{
+            width: 500px;
+            height: 500px;
+            background-image: url(/Pics/IMG_0686.jpg);
+            background-size: cover;
+            border-radius: 50%;
+            margin: 50px;
+            transition: transform 0.3s ease;
+            z-index: 1;
+        }
+        .pic:hover {
+            transform: scale(1.5);
+        }
+        .quote{
+            font-size: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="./profile.html">Profile</a>
+                </li>
+                <li>
+                    <a href="./friends.html">Freinds</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="pic"></div>
+            <div class="quote">
+                <H1>Awake but at what cost</H1>
+                <p>-Rattanon-</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
