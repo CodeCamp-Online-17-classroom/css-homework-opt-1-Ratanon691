@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friends</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .body{
+            background-color: bisque;
+            width: 100vw;
+            height: 100vh;
+        }
+        ul{
+            display: flex;
+            list-style-type: none ;
+            justify-content: end;
+            background-color: gray;
+            padding: 5px;
+        }
+        .navbar a{
+            text-decoration: none;    
+            margin: 10px;     
+            color: white;  
+        }
+        .navbar a:hover{
+            color: black;
+        }
+        .main{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .f{
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+        }
+        .f1, .f2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .img1{
+            width: 300px;
+            height: 300px;
+            background-image: url(/Pics/IMG_7202.JPG);
+            background-size: cover;
+            border-radius: 50%;
+            margin: 50px;
+        }
+        .img2{
+            width: 300px;
+            height: 300px;
+            background-image: url(/Pics/IMG_8451.JPG);
+            background-size: cover;
+            border-radius: 50%;
+            margin: 50px;
+        }
+        .des1 p, .des2 p{
+           margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./profile.html">Profile</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <p style="font-size: 4em; margin: 30px">Friends</p>
+            <div class="f">
+                <div class="f1">
+                    <div class="img1"></div>
+                    <h3>Duk the mouse</h3>
+                    <div class="des1">
+                        <p>Nickname: Duk</p>
+                        <p>Tel: 080-000-0000</p>
+                        <p>Hobby: Hide & Sleep</p>
+                    </div>
+                </div>
+                <div class="f2">
+                    <div class="img2"></div>
+                    <h3>Dik the fat mouse</h3>
+                    <div class="des2">
+                        <p>Nickname: Dik</p>
+                        <p>Tel: 081-234-5678</p>
+                        <p>Hobby: Eat & Sleep</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
