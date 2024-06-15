@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            background-color: bisque;
+        }
+        ul{
+            display: flex;
+            list-style-type: none ;
+            justify-content: end;
+            background-color: gray;
+            padding: 5px;
+        }
+        .navbar a{
+            text-decoration: none;    
+            margin: 10px;     
+            color: white;  
+        }
+        .navbar a:hover{
+            color: black;
+        }
+        .header{
+            width: 100%;
+            height: 100%;
+            padding: 40px;
+            display: flex;
+            justify-content: space-around;
+            background-color: lightgray;
+        }
+        .img{
+            display: flex;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 1px solid black;
+            background-image: url(/Pics/CP2_8318\ copy.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .name{
+            font-size: 5em;
+            align-self: center;
+        }
+        .contact h2, p{
+            margin: 20px;
+        }
+        .body{
+            display: flex;
+        }
+        .contact{
+            width: 50vw;
+        }
+        .hobby{
+            margin: 20px;
+            display: flex;
+        }
+        .img2{
+            background-image: url(/Pics/IMG_5356.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .archery{
+            display: flex;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./friends.html">Freinds</a>
+            </li>
+        </ul>
+    </div>
+    <div class="header">
+        <div class="img">
+        </div>
+            <div class="name">
+                <p>Rattanon Tunwittaya</p>
+            </div>
+    </div>
+    <div class="body">
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>81/62 Prachauthit Rd. Prachauthit Bangkok 10140</p>
+            <h2>Tel: 089-896-0448</h2>
+        </div>
+        <div class="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero modi earum ratione dignissimos sunt laborum tempore repellat accusantium quibusdam sed et harum consequatur exercitationem, odit, sint eum itaque esse eveniet asperiores deleniti! Rerum tenetur deleniti corrupti omnis ab adipisci blanditiis provident, laborum perspiciatis, totam est odio dolores officiis et voluptas.</p>
+        </div>
+    </div>
+    <h2 style="margin: 20px;">My Hobby</h2>
+    <div class="hobby">
+        <div class="img2"></div>
+        <div class="archery">
+            <p>Archery</p>
+        </div>
+    </div>
+</body>
+</html>
